@@ -1,0 +1,16 @@
+---- pfb Matches (16 in 1 files) ----
+Fb.c (e:\winshare\section_6_project\testproject\display):unsigned int *pfb = NULL; //指向framebuffer内存首地址
+Fb.c (e:\winshare\section_6_project\testproject\display):	pfb = mmap(NULL, finfo.smem_len, PROT_READ | PROT_WRITE, MAP_SHARED, fbfd, 0);
+Fb.c (e:\winshare\section_6_project\testproject\display):	if(NULL == pfb)
+Fb.c (e:\winshare\section_6_project\testproject\display):	debug("pfb = %p\n\n", pfb);
+Fb.c (e:\winshare\section_6_project\testproject\display):			*(pfb + y * WIDTH + x) = color; 
+Fb.c (e:\winshare\section_6_project\testproject\display):		*(pfb + 250 * WIDTH + x) = color;	 
+Fb.c (e:\winshare\section_6_project\testproject\display):	unsigned int *p = pfb;
+Fb.c (e:\winshare\section_6_project\testproject\display):			*(pfb+cnt) = ((pData[3*cnt+2]<<0) | (pData[3*cnt+1]<<8) | (pData[3*cnt+0]<<16));
+Fb.c (e:\winshare\section_6_project\testproject\display):			*(pfb+cnt) = ((pData[a+2]<<0) | (pData[a+1]<<8) | (pData[a+0]<<16));
+Fb.c (e:\winshare\section_6_project\testproject\display):			*(pfb+cnt) = ((pData[a+2]<<0) | (pData[a+1]<<8) | (pData[a+0]<<16));
+Fb.c (e:\winshare\section_6_project\testproject\display):			*(pfb+cnt1) = ((pData[3*cnt2+2]<<0) | (pData[3*cnt2+1]<<8) | (pData[3*cnt2+0]<<16));
+Fb.c (e:\winshare\section_6_project\testproject\display):			*(pfb+cnt) = ((pData[a+2]<<0) | (pData[a+1]<<8) | (pData[a+0]<<16));
+Fb.c (e:\winshare\section_6_project\testproject\display):			*(pfb+cnt) = ((pData[a+2]<<0) | (pData[a+1]<<8) | (pData[a+0]<<16));
+Fb.c (e:\winshare\section_6_project\testproject\display):			*(pfb+cnt) = ((pData[a+0]<<0) | (pData[a+1]<<8) | (pData[a+2]<<16));
+Fb.c (e:\winshare\section_6_project\testproject\display):			*(pfb+cnt) = ((pData[a+2]<<0) | (pData[a+1]<<8) | (pData[a+0]<<16));
